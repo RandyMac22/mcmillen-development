@@ -680,3 +680,8 @@ footer .listItem {
 	display: flex;
 	align-items: center;
 }
+
+.construction img{
+	margin-top: 12%;
+	margin-left: 23%;
+}
