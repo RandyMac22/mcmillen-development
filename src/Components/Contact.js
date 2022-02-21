@@ -19,12 +19,14 @@ export default function Contact(){
 		phone,
 		information
 	};
+	const infoJSON = JSON.stringify(info);
 
 	const submitHandler = (event) => {
 		event.preventDefault();
 		
 		try {
-			const newEmail = await axios.post("/messages", info);
+			axios.post("/messages", infoJSON);
+		
 		} catch(err) {
 			console.log("Unable to post message");
 			console.log(err);
