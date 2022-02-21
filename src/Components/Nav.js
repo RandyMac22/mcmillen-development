@@ -10,7 +10,7 @@ function Nav() {
             <div className="topCenter">
               <ul className="topList">
                 <li className="listItem">
-                    <Link to="home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li className="listItem">
                     <Link to="projects">Projects</Link>
