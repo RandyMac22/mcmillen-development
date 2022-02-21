@@ -1,18 +1,35 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
+import axios from 'axios'
 import "../index.css";
 
 export default function Contact(){
     const navigate = useNavigate();
 	const [email, setEmail] = useState("");
     const [name, setName] = useState("");
-	const [message, setMessage] = useState("");
+	const [phone, setPhone] = useState("");
+	const [information, setMessage] = useState("");
 	const [error, setError] = useState("");
 	//todo fetch the first 11 posts to get the links to the pages
+	
+	const info={
+		email,
+		name,
+		phone,
+		information
+	};
 
 	const submitHandler = (event) => {
 		event.preventDefault();
+		
+		try {
+			const newEmail = await axios.post("/messages", info);
+		} catch(err) {
+			console.log("Unable to post message");
+			console.log(err);
+		}
+
 	}
 
     return (
@@ -45,14 +62,27 @@ export default function Contact(){
 						}}
 					/>
 				</div>
+
+				<div className="createFormGroup">
+					<input
+						className="createInput"
+						placeholder="Phone Number"
+						type="number"
+						name="phone"
+						value={phone}
+						onChange={(e) => {
+							setPhone(e.target.value);
+						}}
+					/>
+				</div>
 				
 				<div className="createFormGroup">
 					<textarea
 						className="createInput"
 						placeholder="Enter your message"
-						name="message"
+						name="information"
 						type="text"
-						value={message}
+						value={information}
 						onChange={(e) => {
 							setMessage(e.target.value);
 						}}
