@@ -14,6 +14,7 @@ export default function Footer() {
                     </a>
 					<p>Created using React.js and deployed with AWS Amplify</p>
                     <p>Copyright © 2022 Randy McMillen Jr.  All rights reserved.</p>
+                    <p>Sullivan, MO  63080</p>
 				</div>
 			</footer>
     )

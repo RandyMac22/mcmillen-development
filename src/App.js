@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -7,6 +7,21 @@ import Projects from "./Components/Projects";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+
+  const [width, setWindowWidth] = useState(0)
+   useEffect(() => { 
+
+     updateDimensions();
+
+     window.addEventListener("resize", updateDimensions);
+     return () => 
+       window.removeEventListener("resize",updateDimensions);
+    }, [])
+    const updateDimensions = () => {
+      const width = window.innerWidth
+      setWindowWidth(width)
+    }
+
   return (
     <div className="App Container">
       <Routes>

@@ -654,6 +654,10 @@ footer .listItem {
 	padding-left: 1rem;
 }
 
+.register textarea{
+	height: 10rem;
+}
+
 .registerImg {
 	width: 65vw;
 	height: 250px;
@@ -681,7 +685,13 @@ footer .listItem {
 	align-items: center;
 }
 
-.construction img{
-	margin-top: 12%;
-	margin-left: 23%;
+.projects img {
+	margin-left: 24%;
+    margin-top: 11%;
+}
+
+@media only screen and (min-width: 1024px) {
+	.Navigation .home{
+		display: flex;
+	}
 }

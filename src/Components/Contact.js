@@ -25,11 +25,13 @@ export default function Contact(){
 		event.preventDefault();
 		
 		try {
-			axios.post("/messages", infoJSON);
+			axios.post("/messages.json", infoJSON);
+			window.location.href("/");
 		
 		} catch(err) {
 			console.log("Unable to post message");
 			console.log(err);
+			window.location.href("/contact");
 		}
 
 	}
@@ -79,7 +81,7 @@ export default function Contact(){
 				</div>
 				
 				<div className="createFormGroup">
-					<textarea
+					<textarea 
 						className="createInput"
 						placeholder="Enter your message"
 						name="information"
