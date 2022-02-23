@@ -12,6 +12,8 @@ export default function Contact(){
 	const [information, setMessage] = useState("");
 	const [error, setError] = useState("");
 	//todo fetch the first 11 posts to get the links to the pages
+
+	const url = "https://mcmillendevelopment-default-rtdb.firebaseio.com/messages.json";
 	
 	const info={
 		email,
@@ -19,20 +21,29 @@ export default function Contact(){
 		phone,
 		information
 	};
+
 	const infoJSON = JSON.stringify(info);
+
+	let headers = {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: infoJSON
+	}
 
 	const submitHandler = (event) => {
 		event.preventDefault();
 		
-		try {
-			axios.post("/messages.json", infoJSON);
-			window.location.href("/");
-		
-		} catch(err) {
-			console.log("Unable to post message");
-			console.log(err);
-			window.location.href("/contact");
-		}
+		fetch(url, headers)
+			.then(res=>{res.json();
+			if (res.status === 200){
+				alert("Message sent!");
+				window.location.href("/");
+			} else {
+				alert("Message not sent. Please try again!");
+				window.location.href("/contact");
+			}})
 
 	}
 
