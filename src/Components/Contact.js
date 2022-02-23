@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import Modal from "react-modal";
 import axios from 'axios'
 import "../index.css";
 
@@ -38,7 +39,7 @@ export default function Contact(){
 		fetch(url, headers)
 			.then(res=>{res.json();
 			if (res.status === 200){
-				alert("Message sent!");
+				alert("Message sent! We will get back to you ASAP!");
 				window.location.replace("/");
 			} else {
 				alert("Message not sent. Please try again!");
