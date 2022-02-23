@@ -39,11 +39,11 @@ export default function Contact(){
 			.then(res=>{res.json();
 			if (res.status === 200){
 				alert("Message sent!");
-				window.location.href("/");
+				window.location.replace("/");
 			} else {
 				alert("Message not sent. Please try again!");
-				window.location.href("/contact");
-			}})
+				window.location.replace("/contact");
+			}});
 
 	}
 
