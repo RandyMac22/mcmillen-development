@@ -16,14 +16,6 @@ export default function Projects() {
                 <strong>Name: </strong>
                 Landing Page
               </p>
-              <p>
-                <strong>Type: </strong>
-                JavaScript
-              </p>
-              <p>
-                <strong>Details: </strong>
-                Module 3 Project
-              </p>
             </div>
           </div>
         </a>
@@ -35,17 +27,6 @@ export default function Projects() {
               <p>
                 <strong>Name: </strong>
                 UniEvent
-              </p>
-              <p>
-                <strong>Type: </strong>
-                Node.js and Handlebars
-              </p>
-              <p>
-                <strong>Database: Firebase</strong>
-              </p>
-              <p>
-                <strong>Details: </strong>
-                Module 4 Project
               </p>
             </div>
           </div>
@@ -59,17 +40,6 @@ export default function Projects() {
                 <strong>Name: </strong>
                 KingWiki
               </p>
-              <p>
-                <strong>Type: </strong>
-                Node.js and Handlebars
-              </p>
-              <p>
-                <strong>Database: Firebase</strong>
-              </p>
-              <p>
-                <strong>Details: </strong>
-                Module 5 Project
-              </p>
             </div>
           </div>
         </a>
@@ -80,17 +50,6 @@ export default function Projects() {
                 <p>
                 <strong>Name: </strong>
                 Atlas Health and Wellness Blog
-                </p>
-                <p>
-                <strong>Type: </strong>
-                React
-                </p>
-                <p>
-                <strong>Database: MongoDB</strong>
-                </p>
-                <p>
-                <strong>Details: </strong>
-                Module 6 Project
                 </p>
             </div>
             </div>
