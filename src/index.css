@@ -3,94 +3,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .create {
-	padding-top: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: -2%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -2%;
 }
 
 .create h1 {
-	font-family: "Akaya Telivigala", cursive;
-	text-align: center;
-	margin-left: 45%;
-	margin-bottom: -10%;
+  font-family: "Akaya Telivigala", cursive;
+  text-align: center;
+  margin-left: 45%;
+  margin-bottom: -10%;
 }
 
 .createImg {
-	margin-left: 200px;
-	width: 65vw;
-	height: 250px;
-	border-radius: 10px;
-	object-fit: cover;
+  margin-left: 200px;
+  width: 65vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .createForm {
   margin-top: 7%;
-	position: relative;
+  position: relative;
 }
 
 .createFormGroup {
-	margin-left: 150px;
-	display: flex;
-	align-items: center;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
 }
 
 .createFormGroup button {
-	margin-left: 44%;
+  margin-left: 44%;
 }
 
 .createIcon {
-	width: 25px;
-	height: 25px;
-	font-size: 20px;
-	border: 1px solid;
-	border-radius: 50%;
-	color: rgb(129, 125, 125);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .createInput {
-	font-size: 1.5rem;
-	border: 10px;
-	padding: 1rem;
-	margin: 5px;
-	width: 70vw;
+  font-size: 1.5rem;
+  border: 10px;
+  padding: 1rem;
+  margin: 5px;
+  width: 70vw;
 }
 
 .createInput::placeholder {
-	color: rgb(189, 185, 185);
-	font-weight: 400;
+  color: rgb(189, 185, 185);
+  font-weight: 400;
 }
 
 .createInput:focus {
-	outline-style: solid;
+  outline-style: solid;
 }
 
 .createText {
-	width: 70vw;
-	height: 50vh;
-	font-family: inherit;
-	font-size: 20px;
+  width: 70vw;
+  height: 50vh;
+  font-family: inherit;
+  font-size: 20px;
 }
 
 .createSubmit {
-	/* position: absolute; */
-	top: 20px;
-	right: 50px;
-	color: white;
-	background-color: rgb(6, 54, 16);
-	padding: 10px;
-	margin-top: 1.5%;
-	margin-bottom: 2%;
-	border: none;
-	border-radius: 10px;
-	font-size: 16px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
+  /* position: absolute; */
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: rgb(6, 54, 16);
+  padding: 10px;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 /* Create Style */
@@ -99,31 +99,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .footer {
-	width: 100%;
-	height: 11.25rem;
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 1.25rem;
-	background-color: black;
-	color: rgb(248, 232, 8);
-	border-top: 5px solid #050505; 
-	/* border-bottom: 2px solid #234465; */
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	text-align: center;
-	margin-bottom: 0.5%;
-	bottom: 0px;
+  width: 100%;
+  height: 11.25rem;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.25rem;
+  background-color: black;
+  color: goldenrod;
+  border-top: 5px solid #050505;
+  /* border-bottom: 2px solid #234465; */
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  text-align: center;
+  margin-bottom: 0.5%;
+  bottom: 0px;
 }
 
 .footer p {
-	text-align: center;
+  text-align: center;
 }
 .footer img {
   width: 2rem;
   padding: 0.5rem;
 }
 .footer h2 {
-	text-align: center;
-	text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /* Footer Styles */
@@ -132,199 +132,200 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .Navigation {
-	width: 100%;
-	height: 7rem;
-	background-color: black;
-	color: rgb(248, 232, 8);
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 28px;
-	position: fixed;
-	top: 0;
-	border-bottom: 4px solid #111000;
-	display: flex;
-	align-items: center;
-	z-index: 999;
+  width: 100%;
+  height: 7rem;
+  background-color: black;
+  color: rgb(248, 232, 8);
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 28px;
+  position: fixed;
+  top: 0;
+  border-bottom: 4px solid #111000;
+  display: flex;
+  align-items: center;
+  z-index: 999;
 }
 
 .divcenter {
-	/* border: 2px solid lightblue; */
-	/* height: 100px; */
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  /* border: 2px solid lightblue; */
+  /* height: 100px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center {
   color: rgb(248, 232, 8);
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 14ch;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 14ch;
   text-align: center;
 }
 
 .instagramlogo {
-	width: 40px;
-	height: 40px;
-	/* position: relative; */
-	right: 200px;
-	/* padding: 35px; */
-	/* margin-left: 95%; */
+  width: 40px;
+  height: 40px;
+  /* position: relative; */
+  right: 200px;
+  /* padding: 35px; */
+  /* margin-left: 95%; */
 }
 
 .topList {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav .listItem a {
-	color: rgb(248, 232, 8);
-	height: 1rem;
-	text-decoration: none;
+  color: goldenrod;
+  height: 1rem;
+  text-decoration: none;
 }
 
 nav .listItem,
 footer .listItem {
-	display: inline-block;
-	height: auto;
-	margin-right: 2%;
-	cursor: pointer;
-	padding: 0.5%;
-	margin: 0.1%;
-	vertical-align: top;
+  display: inline-block;
+  height: auto;
+  margin-right: 2%;
+  cursor: pointer;
+  padding: 0.5%;
+  margin: 0.1%;
+  vertical-align: top;
 }
 
 .topLeft,
 .topRight {
-	flex: 3;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topCenter {
-	flex: 6;
+  flex: 6;
 }
 
 .topImg {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	object-fit: cover;
-	margin-right: 15px;
-	/* cursor: pointer; */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  /* cursor: pointer; */
 }
 
 .topIcon {
-	font-size: 40px;
-	margin-right: 10px;
-	color: #444;
-	cursor: pointer;
+  font-size: 40px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
 }
 
 /* Navigation Styles*/
 
 /* Header Styles */
 .header {
-	margin-top: 55px;
+  margin-top: 55px;
 }
 
 .headerTitles {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* font-family: "Lora", serif; */
-	/* color: #444; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: "Lora", serif; */
+  /* color: #444; */
 }
 
 .headerTitleSm {
-	position: absolute;
-	top: 20%;
-	font-size: 20px;
-	color: #fff;
+  position: absolute;
+  top: 20%;
+  font-size: 20px;
+  color: #fff;
 }
 
 .headerTitleLg {
-	/* position: absolute; */
-	padding: 0.5rem;
-	font-size: 60px;
-	color: #fff;
+  /* position: absolute; */
+  padding: 0.5rem;
+  font-size: 60px;
+  color: #fff;
 }
 
 .headerImg {
-	width: 100%;
-	height: 150px;
-	margin-top: 80px;
-	object-fit: cover;
+  width: 100%;
+  height: 150px;
+  margin-top: 80px;
+  object-fit: cover;
 }
 /* Header Styles */
 
 /* Post Styles */
 
 .post {
-	width: 385px;
-	margin: 0px 25px 40px 25px;
-	display: flex;
-	flex-direction: column;
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .postImg {
-	width: 80%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 7px;
+  margin-top: 1.5rem;
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 7px;
 }
 
 .postInfo {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .postCat {
-	/* font-family: "Varela Round", Arial, Helvetica, sans-serif; */
-	font-weight: 400;
-	font-size: 11px;
-	color: #be9656;
-	line-height: 19px;
-	margin-top: 15px;
-	margin-right: 10px;
-	cursor: pointer;
+  /* font-family: "Varela Round", Arial, Helvetica, sans-serif; */
+  font-weight: 400;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .postTitle {
-	/* font-family: "Josefin Sans", Arial, Helvetica, sans-serif; */
-	font-size: 24px;
-	font-weight: 900;
-	margin-top: 15px;
-	cursor: pointer;
+  /* font-family: "Josefin Sans", Arial, Helvetica, sans-serif; */
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 .postDate {
-	/* font-family: "Lora", serif; */
-	font-style: italic;
-	font-size: 13px;
-	font-weight: 400;
-	color: #999999;
-	margin-top: 15px;
+  /* font-family: "Lora", serif; */
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
 }
 
 .postDesc {
-	/* font-family: "Varela Round", Arial, Helvetica, sans-serif; */
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 24px;
-	color: #444444;
-	margin-top: 15px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
+  /* font-family: "Varela Round", Arial, Helvetica, sans-serif; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 /* Post Styles */
@@ -332,10 +333,17 @@ footer .listItem {
 /* Posts Styles */
 
 .posts {
-	flex: 12;
-	display: flex;
-	flex-wrap: wrap;
-	margin: 20px;
+  flex: 12;
+  display: flex;
+  margin: 8px;
+}
+
+.posts h1 {
+	margin-top: 8rem;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Posts Styles */
@@ -343,97 +351,96 @@ footer .listItem {
 /* singlePost Styles */
 
 .singlePost {
-
-	margin-left: 18%;
-	margin-top: 3%;
+  margin-left: 18%;
+  margin-top: 3%;
 }
 
 .singlePostWrapper {
-	padding: 20px;
-	padding-right: 0;
+  padding: 20px;
+  padding-right: 0;
 }
 
 .singlePostImg {
-	max-width: 20%;
-	height: auto;
-	margin-top: 1%;
-	margin-left: 25%;
-	border-radius: 10px;
-	object-fit: cover;
+  max-width: 20%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 25%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .singlePostTitle {
-	text-align: center;
-	margin: 10px;
-	font-size: 28px;
-	font-family: "Lora", sans-serif;
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
 }
 
 .singlePostTitleInput {
-	font-size: 20px;
-	border: 10px;
-	padding: 25px;
-	margin: 5px;
-	width: 70vw;
+  font-size: 20px;
+  border: 10px;
+  padding: 25px;
+  margin: 5px;
+  width: 70vw;
 }
 
 .singlePostTitleInput:focus {
-	outline-style: solid;
+  outline-style: solid;
 }
 
 .singlePostEdit {
-	float: right;
-	font-size: 16px;
+  float: right;
+  font-size: 16px;
 }
 
 .singlePostIcon {
-	margin-left: 10px;
-	cursor: pointer;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .singlePostIcon:first-child {
-	color: teal;
+  color: teal;
 }
 .singlePostIcon:last-child {
-	color: tomato;
+  color: tomato;
 }
 
 .singlePostInfo {
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-between;
-	font-size: 16px;
-	color: #be9656;
-	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 .singlePostInputLabel {
-	font-family: inherit;
-	font-size: 20px;
+  font-family: inherit;
+  font-size: 20px;
 }
 
 .singlePostDescInput {
-	width: 70vw;
-	height: 50vh;
-	font-family: inherit;
-	font-size: 20px;
+  width: 70vw;
+  height: 50vh;
+  font-family: inherit;
+  font-size: 20px;
 }
 
 .singlePostDescInput:focus {
-	outline-style: solid;
+  outline-style: solid;
 }
 
 .singlePostDesc {
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 28px;
-	color: #666;
-	line-height: 25px;
-	margin-left: 24%;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 28px;
+  color: #666;
+  line-height: 25px;
+  margin-left: 24%;
 }
 
 .singlePostDesc h1 {
-	font-size: 35px;
-	color:rgb(6, 54, 16);
+  font-size: 35px;
+  color: rgb(6, 54, 16);
 }
 
 /* singlePost Styles */
@@ -444,14 +451,14 @@ footer .listItem {
   margin-top: 5rem;
   background-image: "https://user-images.githubusercontent.com/15365418/52528044-6d27a580-2c88-11e9-92d3-cbf0ab3be0a6.jpg";
   width: 100%;
-	display: inline-block;
+  display: inline-block;
 }
 
 .home h1 {
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 45px;	
-	color:black;
-	text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 45px;
+  color: black;
+  text-align: center;
 }
 
 .home img {
@@ -477,41 +484,41 @@ footer .listItem {
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .logout {
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 1.75rem;
-	text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.75rem;
+  text-align: center;
 }
 
 .logout h1 {
-	text-align: center;
-	font-size: 3.5rem;
+  text-align: center;
+  font-size: 3.5rem;
 }
 
 .logoutImg {
-	width: 65vw;
-	height: 250px;
-	margin-top: 17%;
-	border-radius: 10px;
-	object-fit: cover;
+  width: 65vw;
+  height: 250px;
+  margin-top: 17%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .logoutSubmit {
-	/* position: absolute; */
-	top: 20px;
-	right: 50px;
-	color: white;
-	background-color: rgb(129, 125, 125);
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	font-size: 16px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
+  /* position: absolute; */
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: rgb(129, 125, 125);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .logout p {
-	text-align: center;
+  text-align: center;
 }
 
 /* Logout Styles */
@@ -521,41 +528,41 @@ footer .listItem {
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .login {
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 1.75rem;
-	text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.75rem;
+  text-align: center;
 }
 
 .login h1 {
-	margin-bottom: -5%;
-	margin-top: 1%;
-	text-align: center;
-	font-size: 3.5rem;
-	color:rgb(6, 54, 16)
+  margin-bottom: -5%;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: rgb(6, 54, 16);
 }
 
 .loginImg {
-	width: 65vw;
-	height: 250px;
-	margin-top: 3%;
-	border-radius: 10px;
-	object-fit: cover;
+  width: 65vw;
+  height: 250px;
+  margin-top: 3%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .loginSubmit {
-	/* position: absolute; */
-	top: 20px;
-	right: 50px;
-	color: white;
-	background-color: rgb(6, 54, 16);
-	padding: 10px;
-	border: none;
-	border-radius: 10px;
-	margin-top: -7%;
-	font-size: 16px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
+  /* position: absolute; */
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: rgb(6, 54, 16);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: -7%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 /* Register Styles */
@@ -563,62 +570,145 @@ footer .listItem {
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 .register {
-	font-family: "Akaya Telivigala", cursive;
-	font-size: 1.5rem;
-	text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .register h1 {
-	color: black;
-	text-align: center;
-	font-size: 3.5rem;
-	margin-top: 7.5rem;
-	margin-bottom: -6%;
+  color: black;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 7.5rem;
+  margin-bottom: -6%;
 }
 .register li {
-	display: inline-block;
-	padding-left: 1rem;
+  display: inline-block;
+  padding-left: 1rem;
 }
 
-.register textarea{
-	height: 10rem;
+.register textarea {
+  height: 10rem;
 }
 
 .registerImg {
-	width: 65vw;
-	height: 250px;
-	margin-top: 2%;
-	border-radius: 10px;
-	object-fit: cover;
+  width: 65vw;
+  height: 250px;
+  margin-top: 2%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .registerSubmit {
-	/* position: absolute; */
+  /* position: absolute; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Akaya Telivigala", cursive;
+  top: 20px;
+  right: 50px;
+  color: goldenrod;
+  font-weight: bolder;
+  background-color: black;
+  padding: 10px;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.projects {
+	font-family: "Akaya Telivigala", cursive;
+}
+
+.projects h1 {
+	margin-top: 8rem;
 	display: block;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Akaya Telivigala", cursive;
-	top: 20px;
-	right: 50px;
-	color: rgb(248, 232, 8);
-	font-weight: bolder;
-	background-color: black;
-	padding: 10px;
-	margin-top: 1.5%;
-	margin-bottom: 2%;
-	border: none;
-	border-radius: 10px;
-	font-size: 16px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
 }
 
 .projects img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 70%;
-  margin-top: 9.5rem;
-  margin-bottom: 3.5rem;
+  display: flex;
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
+
+.card {	
+  display: flex;
+  flex: 12;
+  position: relative;
+  max-width: 90rem;
+  height: 24rem;
+  margin-left: 5rem;
+}
+
+.card-body {
+  background-color: #444;
+  color: goldenrod ;
+  z-index: 2;
+  position: absolute;
+  max-width: 14rem;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  padding-left:1.5rem
+}
+
+.card-body p{
+	font-size: 1rem;
+}
+
+.card-body a {
+	color: black;
+}
+
+.details img {
+	display: block;
+	margin-top: 7rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details h1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.detailContainer {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: larger;
+	color: black;
+	background-color: goldenrod;
+	border-radius: 1rem;
+	width: 90%;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	margin-left: 3rem;
+	margin-left: 3rem;
+	padding: 2rem;
+}
+
+.detailContainer img {
+	margin-top: 2rem;
+	width: 70rem
+}
+
+.github {
+	display: block;
+	width: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
