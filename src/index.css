@@ -274,9 +274,8 @@ footer .listItem {
 
 .postImg {
   margin-top: 1.5rem;
-  width: 30%;
-  height: auto;
-  object-fit: cover;
+  width: 95%;
+  height: 85%;
   border-radius: 7px;
 }
 
@@ -465,7 +464,7 @@ footer .listItem {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 45%;
+  width: 125%;
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
 }
