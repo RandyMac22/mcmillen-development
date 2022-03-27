@@ -7,6 +7,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <h1>School Projects</h1>
+      <p style={{textAlign: "center"}}>Click on the projects below to see more</p>
       <div className="posts">
         <a href="/projects/landing-page">
           <div className="card">
@@ -49,7 +50,7 @@ export default function Projects() {
             <div className="card-body">
                 <p>
                 <strong>Name: </strong>
-                Atlas Health and Wellness Blog
+                Atlas Blog
                 </p>
             </div>
             </div>

@@ -8,9 +8,14 @@ import LandingPage from "./Components/LandingPage";
 import UniEvent from "./Components/UniEvent";
 import KingUniWiki from "./Components/KingUniWiki";
 import Atlas from "./Components/Atlas";
+import Login from "./Components/Login";
+import Messages from "./Components/Messages";
+import PrivateRoute from "./Components/PrivateRoute";
 import { Route, Routes } from "react-router-dom";
 
-function App() {
+function App(props) {
+
+  const loggedIn = props.loggedin;
 
   const [width, setWindowWidth] = useState(0)
    useEffect(() => { 
@@ -37,6 +42,19 @@ function App() {
         <Route path="/projects/unievent" element={<UniEvent />}  />
         <Route path="/projects/kingWiki" element={<KingUniWiki />} />
         <Route path="/projects/atlas" element={<Atlas />} />
+        <Route path="/login" element={<Login updateLogin={props.updateLogin} />} />
+        <Route
+          path="/admin/messages" element={
+            <PrivateRoute
+              isAuth={loggedIn}
+              path="messages"
+            >
+              <Messages updateLogin={props.updateLogin} />
+            </PrivateRoute>
+          }
+        />
+            
+        
       </Routes>
     </div>
   );
