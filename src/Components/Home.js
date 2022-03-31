@@ -1,10 +1,10 @@
-import randyMacLogo from "../Components/img/Randy-Mac-Dev-logo.jpg";
+import mcmillenDev from "../Components/img/McMillenDevelopment.jpg";
 
 export default function Home() {
     return (
         <>
             <div className="home">
-                <img src={randyMacLogo}/>
+                <img src={mcmillenDev} alt=""/>
             </div>
         </>
     )
