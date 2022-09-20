@@ -10,7 +10,7 @@ export default function Amazonclone(){
             <h1>Amazon Clone</h1>
             <div className="detailContainer">
                <p>
-                    The Amazon Clone was a personal project.  I wanted to learn to make an ecommerce store using React.  The server was Express and utilized Firebase for database work.  Click on the picture below to see a working demo of the app.  There will be a warning about it being a deceptive site most likley.  I will show you how to test the payments with a test card from Stripe.  Please do not use your actual credit card information 
+                    The Amazon Clone was a personal project.  I wanted to learn to make an ecommerce store using React.  The server was Express and utilized Firebase for database work. 
                </p>
                <p>
                     To create an account fill out the email and password portions of the form then click on the Create your Amazon Account button.
