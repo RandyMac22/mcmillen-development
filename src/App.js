@@ -8,6 +8,7 @@ import LandingPage from "./Components/LandingPage";
 import UniEvent from "./Components/UniEvent";
 import KingUniWiki from "./Components/KingUniWiki";
 import Atlas from "./Components/Atlas";
+import AmazonClone from "./Components/AmazonClone";
 import Login from "./Components/Login";
 import Messages from "./Components/Messages";
 import PrivateRoute from "./Components/PrivateRoute";
@@ -42,6 +43,7 @@ function App(props) {
         <Route path="/projects/unievent" element={<UniEvent />}  />
         <Route path="/projects/kingWiki" element={<KingUniWiki />} />
         <Route path="/projects/atlas" element={<Atlas />} />
+        <Route path="/projects/amazonClone" element={<AmazonClone />} />
         <Route path="/login" element={<Login updateLogin={props.updateLogin} />} />
         <Route
           path="/admin/messages" element={
