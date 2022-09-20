@@ -60,11 +60,11 @@ export default function Projects() {
         <br />
         <br />
       </div>
-      <div className="projects-personal">
+      <div className="projects">
         <h1>Personal Projects</h1>
         <p style={{textAlign: "center"}}>Click on the projects below to see more</p>
           <a href='/projects/amazonClone'>
-            <div className="card">
+            <div className="card" style={{display: "inline-block", width: "45%"}}>
               <img className="postImg" src={AmazonClone} alt='Amazon Clone'></img>
               <div className="card-body">
                 <p>
@@ -75,7 +75,7 @@ export default function Projects() {
             </div>
           </a>
           <a href="/projects/baseballCards">
-            <div className="card">
+            <div className="card" style={{width: "45%", display: "inline-block"}}>
               <img className="postImg" src={Home} alt="Baseball Card Collection" />
               <div className="card-body">
                 <p>
