@@ -642,6 +642,13 @@ footer .listItem {
   margin-bottom: 2rem;
 }
 
+.projects-personal img {
+  display: flex;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .card {	
   display: block;
   flex: 12;

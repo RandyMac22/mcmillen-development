@@ -3,6 +3,7 @@ import UniEvent from "./img/UniEvent.jpg";
 import KingWiki from "./img/KingWiki.jpg";
 import Atlas from "./img/Atlas.jpg";
 import AmazonClone from './img/amazonclone.png';
+import Home from './img/Baseball-card-collection2.png';
 
 export default function Projects() {
   return (
@@ -59,8 +60,9 @@ export default function Projects() {
         <br />
         <br />
       </div>
-      <div className="projects">
+      <div className="projects-personal">
         <h1>Personal Projects</h1>
+        <p style={{textAlign: "center"}}>Click on the projects below to see more</p>
           <a href='/projects/amazonClone'>
             <div className="card">
               <img className="postImg" src={AmazonClone} alt='Amazon Clone'></img>
@@ -68,6 +70,17 @@ export default function Projects() {
                 <p>
                   <strong> Name: </strong>
                   Amazon Clone
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="/projects/baseballCards">
+            <div className="card">
+              <img className="postImg" src={Home} alt="Baseball Card Collection" />
+              <div className="card-body">
+                <p>
+                  <strong> Name: </strong>
+                  Baseball Card Collection
                 </p>
               </div>
             </div>
