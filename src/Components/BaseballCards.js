@@ -20,19 +20,19 @@ export default function BaseballCardCollection() {
                     <p>
                         The login page uses authorization from Firebase.
                     </p>
-                    <img src={Login} alt="" />
+                    <img src={Login} alt="login" />
                     <p>
                         The registration page is set up to use auth from Firebase
                     </p>
-                    <img src={Register} alt="" />
+                    <img src={Register} alt="register" />
                     <p>
                         Once logged in the homepage is shown, listing all current cards in your database.
                     </p>
-                    <img src={Home} alt="" />
+                    <img src={Home} alt="home" />
                     <p>
                         The add card page requires input from you and a link to a picture of the card from the internet.
                     </p>
-                    <img src={AddCard} alt="" />
+                    <img src={AddCard} alt="add a card" />
                 </div>
                 <a href="https://github.com/RandyMac22/baseball-card-collection">
                     <img className="github" src={Github} alt="tinyGithub"/>

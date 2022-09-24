@@ -25,7 +25,7 @@ export default function Amazonclone(){
                <p>
                     The order review screen resembles amazon's order summary page.
                </p>
-               <img src={checkoutScreen} alt=""/>
+               <img src={checkoutScreen} alt="checkout screen"/>
                <p>
                     After checkout your order history page will come up.  You can also utilize the navbar at the top of the screen to navigate the app.
                </p>

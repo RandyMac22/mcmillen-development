@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <div className="home">
-                <img src={mcmillenDev} alt=""/>
+                <img src={mcmillenDev} alt="mcmillen development"/>
             </div>
         </>
     )

@@ -10,7 +10,7 @@ export default function Footer() {
                         <img src={linkedIn} />
                     </a>
                     <a href="https://github.com/RandyMac22">
-                        <img src={gitHub} />
+                        <img src={gitHub} alt="github small" />
                     </a>
 					<p>Created using React.js and deployed with AWS Amplify</p>
                     <p>Copyright © 2022 Randy McMillen Jr.  All rights reserved.</p>
